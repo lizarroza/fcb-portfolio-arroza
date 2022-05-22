@@ -1,0 +1,74 @@
+* {
+	font-family: "Robotto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat", serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+}
+
+#landing {
+	/*viewport height- measured percentage of the height of the device you are viewing your page in*/
+	height: 80vh;
+
+	/*arranges elements inside the parent element, will alow us to layout our elements inside our landing*/
+	display: flex;
+
+	/*directs the elements inside display: flex*/
+	flex-direction: column;
+
+	/*centering elements horizontally if flex-direction is in column*/
+	align-items: center; 
+
+	/*centering elements vertically if flex-direction is in column*/
+	justify-content: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	/*hex*/
+	color: #007bff;
+}
+
+.tools {
+	/*line- around the element*/
+	border: 5px solid #f2f2f2;
+
+	/*space outside the element*/
+	margin: 20px;
+
+	/*space inside the element*/
+	padding: 25px;
+
+	height: 200px;
+
+	/*based on the total width of the parent element*/
+	width: 75%;
+
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
